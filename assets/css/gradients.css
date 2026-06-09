@@ -1,0 +1,72 @@
+:root {
+  --gradient-body-base: radial-gradient(circle at top left, rgba(83, 102, 126, 0.16), transparent 32rem);
+  --gradient-body-overlay:
+    radial-gradient(circle at 14% 18%, rgba(116, 137, 168, 0.18), transparent 28rem),
+    radial-gradient(circle at 84% 12%, rgba(112, 132, 158, 0.12), transparent 24rem),
+    radial-gradient(circle at 64% 58%, rgba(68, 84, 112, 0.16), transparent 30rem),
+    radial-gradient(circle at 22% 88%, rgba(127, 143, 164, 0.1), transparent 26rem),
+    linear-gradient(180deg, rgba(16, 17, 19, 0.08), rgba(16, 17, 19, 0.92));
+
+  --case-gradient-1: #70aaff;
+  --case-gradient-2: #ff0059;
+  --case-gradient-3: #825cff;
+  --gradient-case-base:
+    radial-gradient(circle at 14% 16%, color-mix(in srgb, var(--case-gradient-1) 42%, transparent) 0, color-mix(in srgb, var(--case-gradient-1) 20%, transparent) 13rem, transparent 28rem),
+    radial-gradient(circle at 84% 18%, color-mix(in srgb, var(--case-gradient-2) 38%, transparent) 0, color-mix(in srgb, var(--case-gradient-2) 16%, transparent) 11rem, transparent 26rem),
+    radial-gradient(circle at 70% 76%, color-mix(in srgb, var(--case-gradient-3) 36%, transparent) 0, color-mix(in srgb, var(--case-gradient-3) 15%, transparent) 12rem, transparent 28rem),
+    linear-gradient(180deg, rgba(16, 17, 19, 0), rgba(16, 17, 19, 0.52));
+
+  --home-gradient-1: #ff0059;
+  --home-gradient-2: #00336c;
+  --home-gradient-3: #825cff;
+  --home-gradient-4: #58dcff;
+  --gradient-home-base:
+    radial-gradient(circle at 12% 18%, color-mix(in srgb, var(--home-gradient-1) 42%, transparent) 0, color-mix(in srgb, var(--home-gradient-1) 20%, transparent) 13rem, transparent 28rem),
+    radial-gradient(circle at 86% 16%, color-mix(in srgb, var(--home-gradient-2) 34%, transparent) 0, color-mix(in srgb, var(--home-gradient-2) 14%, transparent) 11rem, transparent 25rem),
+    radial-gradient(circle at 70% 72%, color-mix(in srgb, var(--home-gradient-3) 34%, transparent) 0, color-mix(in srgb, var(--home-gradient-3) 15%, transparent) 12rem, transparent 28rem),
+    radial-gradient(circle at 20% 86%, color-mix(in srgb, var(--home-gradient-4) 26%, transparent) 0, color-mix(in srgb, var(--home-gradient-4) 10%, transparent) 10rem, transparent 24rem),
+    linear-gradient(180deg, rgba(16, 17, 19, 0), rgba(16, 17, 19, 0.48));
+  --gradient-home-glow:
+    radial-gradient(circle at 38% 34%, color-mix(in srgb, var(--home-gradient-2) 18%, white 18%, transparent) 0, transparent 12rem),
+    radial-gradient(circle at 56% 8%, color-mix(in srgb, var(--home-gradient-1) 24%, transparent) 0, transparent 18rem);
+
+  --gradient-surface-card: linear-gradient(135deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0.016));
+  --gradient-surface-result: linear-gradient(135deg, rgba(255, 255, 255, 0.035), rgba(255, 255, 255, 0.01));
+  --gradient-video-preloader: linear-gradient(135deg, rgba(16, 17, 19, 0.94), rgba(29, 32, 38, 0.9));
+}
+
+@keyframes gradient-drift {
+  0% {
+    background-position: 0% 0%, 100% 0%, 50% 100%, 0% 100%, 50% 50%;
+  }
+
+  50% {
+    background-position: 42% 18%, 72% 32%, 38% 72%, 24% 58%, 50% 50%;
+  }
+
+  100% {
+    background-position: 100% 46%, 20% 68%, 82% 20%, 60% 12%, 50% 50%;
+  }
+}
+
+@keyframes gradient-float {
+  0% {
+    background-position: 0% 18%, 100% 0%;
+    transform: translate3d(-1%, -1%, 0) scale(1);
+  }
+
+  100% {
+    background-position: 100% 72%, 20% 100%;
+    transform: translate3d(1%, 1%, 0) scale(1.04);
+  }
+}
+
+@keyframes gradient-shimmer {
+  0% {
+    background-position: 0% 50%, 0 0;
+  }
+
+  100% {
+    background-position: 100% 50%, 0 0;
+  }
+}
