@@ -23,13 +23,13 @@ export const uiText = {
       label: 'Переключение языка сайта'
     },
     home: {
-      headTitle: 'Technical Artist Portfolio — Unity / Unreal / UI / Shaders / VFX',
+      headTitle: 'My TA/TD Portfolio',
       headDescription:
           'Портфолио technical artist: Unity, Unreal Engine, responsive UI implementation, scene assembly, material and shader setup, VFX, draw call optimization and asset tools.',
       kicker: 'Портфолио - практические кейсы',
       name: 'Полина Шипневская',
       contacts: 'nifflerinthefog@gmail.com · @poli_nash',
-      role: 'Technical Artist/ Technical Designer',
+      role: 'Technical Artist / Technical Designer',
       summary:
           'Интегрирую арт в движок, оптимизирую графику и пишу код для логики игровых систем и инструментов автоматизации.',
       skills: [
@@ -103,7 +103,7 @@ export const uiText = {
       label: 'Site Language Switcher'
     },
     home: {
-      headTitle: 'Technical Artist Portfolio — Unity / Unreal / UI / Shaders / VFX',
+      headTitle: 'My TA/TD Portfolio',
       headDescription:
           'Technical artist portfolio: Unity, Unreal Engine, responsive UI implementation, scene assembly, material and shader setup, VFX, draw call optimization, and asset tools.',
       kicker: 'Portfolio — Practical Cases',
