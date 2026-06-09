@@ -7,9 +7,12 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'ru'
       },
+      link: [
+        { rel: 'icon', type: 'image/png', href: '/favicon.png' }
+      ],
       title: 'Портфолио технического художника',
       meta: [
-        { name: 'description', content: 'Производственное портфолио технического художника с разборами света, UI, шейдеров и сборки окружения для игровых проектов.' },
+        { name: 'description', content: 'Производственное портфолио technical artist с разборами света, UI, шейдеров и сборки окружения для игровых проектов.' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'theme-color', content: '#101113' },
         { property: 'og:type', content: 'website' },
