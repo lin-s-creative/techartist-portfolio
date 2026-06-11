@@ -28,7 +28,7 @@ export const uiText = {
           'Портфолио technical artist: Unity, Unreal Engine, responsive UI implementation, scene assembly, material and shader setup, VFX, draw call optimization and asset tools.',
       kicker: 'Портфолио - практические кейсы',
       name: 'Полина Шипневская',
-      contacts: 'nifflerinthefog@gmail.com · @poli_nash',
+      contacts: 'nifflerinthefog@gmail.com · telegram: @poli_nash',
       role: 'Technical Artist / Technical Designer',
       summary:
           'Интегрирую арт в движок, оптимизирую графику и пишу код для логики игровых систем и инструментов автоматизации.',
@@ -108,7 +108,7 @@ export const uiText = {
           'Technical artist portfolio: Unity, Unreal Engine, responsive UI implementation, scene assembly, material and shader setup, VFX, draw call optimization, and asset tools.',
       kicker: 'Portfolio — Practical Cases',
       name: 'Polina Shipnevskaya',
-      contacts: 'nifflerinthefog@gmail.com · @poli_nash',
+      contacts: 'nifflerinthefog@gmail.com · telegram: @poli_nash',
       role: 'Technical Artist / Technical Designer',
       summary:
           'Integrating art into game engines, optimizing graphics, and developing code for gameplay systems and automation tools.',
